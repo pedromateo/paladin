@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/mmiModel.emf/src"
+    modelPluginID="mmiModel.emf" modelName="MmiModel" rootImplementsInterface="" importerID="org.eclipse.xsd.ecore.importer"
+    complianceLevel="6.0" copyrightFields="false" interfaceNamePattern="">
+  <foreignModel>../../mmiModel.design/mmiModel.xsd</foreignModel>
+  <genPackages prefix="Model" basePackage="org.mmi" resource="XML" disposableProviderFactory="true"
+      ecorePackage="model.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//ContextualAppropriatenessT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ContextualAppropriatenessT/APPROPRIATE"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ContextualAppropriatenessT/INAPPROPRIATE"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ContextualAppropriatenessT/TOTALFAILURE"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ContextualAppropriatenessT/INCOMPREHENSIBLE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//McReasonT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/RECOGNITIONERROR"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/ENVIRONMENTCHANGE"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/LOWMODAPPROPRIATENESS"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/USERDECISION"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/SYSTEMDECISION"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/INTERFACEADAPTATION"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//McReasonT/OTHER"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//MmiTypeT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//MmiTypeT/UNIMODAL"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//MmiTypeT/EQUIVALENT"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//MmiTypeT/ASSIGNED"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//MmiTypeT/REDUNDANT"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//MmiTypeT/COMPLEMENTARY"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//ModAppropT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModAppropT/APPROPRIATE"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModAppropT/PARTIALLY"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModAppropT/INAPPROPRIATE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//ModTypeT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/S"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/V"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/G"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/SV"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/SG"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/VG"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ModTypeT/SVG"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//ParsingResultT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ParsingResultT/CORRECTLYUNDERSTOOD"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ParsingResultT/PARTIALLYUNDERSTOOD"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//ParsingResultT/NOTHINGUNDERSTOOD"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//PromptTypeT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//PromptTypeT/OPEN"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//PromptTypeT/HALFOPEN"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//PromptTypeT/CLOSED"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//PromptTypeT/NOQUESTION"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//RoleT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//RoleT/SYSTEM"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//RoleT/USER"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="model.ecore#//TaskSuccessT">
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/SUCCEEDED"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONSYSTEM"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONUSER"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONBOTH"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/SUCNOSOLUTION"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/FAILEDSYSTEM"/>
+      <genEnumLiterals ecoreEnumLiteral="model.ecore#//TaskSuccessT/FAILEDUSER"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="model.ecore#//ContextualAppropriatenessTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//McReasonTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//MmiTypeTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//ModAppropTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//ModTypeTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//ParsingResultTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//PromptTypeTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//RoleTObject"/>
+    <genDataTypes ecoreDataType="model.ecore#//TaskSuccessTObject"/>
+    <genClasses ecoreClass="model.ecore#//Avm"/>
+    <genClasses ecoreClass="model.ecore#//Cooperativity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Cooperativity/contextualAppropriateness"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//Dialogue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Dialogue/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Dialogue/baseTimestamp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//Dialogue/task"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//Dialogue/step"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//DialogueStepT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DialogueStepT/systemTurn"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DialogueStepT/userTurn"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/xSISchemaLocation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/avm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/cooperativity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/dialogue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/guiInput"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/modalityAppropriateness"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/modalityChange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/modalityInfo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/modalitySynchroni"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/speechInput"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/speechOutput"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/systemMetacomm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/task"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/turn"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//DocumentRoot/userMetacomm"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//GuiInput">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/textElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/navigationActions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/navigationMoves"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/navigationLength"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/exploringActions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//GuiInput/transferringActions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="model.ecore#//Metacomm">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Metacomm/isHelp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Metacomm/isCorrection"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//ModalityAppropriateness">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalityAppropriateness/appropriateness"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//ModalityChange">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalityChange/origin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalityChange/reason"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//ModalityInfo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalityInfo/modalityType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalityInfo/mmiType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//ModalityInfo/appropriateness"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//ModalityInfo/synchroni"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//ModalityInfo/change"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//ModalitySynchroni">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalitySynchroni/nlags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalitySynchroni/lagtime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//ModalitySynchroni/nevents"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//SpeechInput">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/overallWords"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/substitutedWords"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/deletedWords"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/insertedWords"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/overallSentences"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/substitutedSentences"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/deletedSentences"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/insertedSentences"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/overallConcepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/substitutedConcepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/deletedConcepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/insertedConcepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechInput/parsingResult"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//SpeechOutput">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechOutput/aNCO"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechOutput/aNIN"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechOutput/aNPA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechOutput/aNFA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SpeechOutput/promptType"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//SystemMetacomm">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SystemMetacomm/isASRReject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SystemMetacomm/isDIVReject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//SystemMetacomm/isGRReject"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//SystemTurn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//SystemTurn/metacomm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//SystemTurn/speechOutput"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//SystemTurn/cooperativity"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//Task">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Task/success"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Task/reason"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//Task/avm"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="model.ecore#//Turn">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/feedbackDelay"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/feedbackDuration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/actionDuration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/elements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/feedback"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/concepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/noise"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//Turn/questions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//Turn/modality"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//UserMetacomm">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//UserMetacomm/isTimeOut"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//UserMetacomm/isCancel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//UserMetacomm/isRestart"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//UserMetacomm/isBargein"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//UserMetacomm/isSuccessfulBargein"/>
+    </genClasses>
+    <genClasses ecoreClass="model.ecore#//UserTurn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//UserTurn/metacomm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//UserTurn/speechInput"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//UserTurn/guiInput"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

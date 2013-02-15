@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd2ecore:XSD2EcoreMappingRoot xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsd2ecore="http://www.eclipse.org/emf/2002/XSD2Ecore" inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#/"
+    outputs="model.ecore#/" topToBottom="true">
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Avm;XSDComplexTypeDefinition=3"
+      outputs="model.ecore#//Avm"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Avm;XSDElementDeclaration"
+      outputs="model.ecore#//DocumentRoot/avm"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//contextual_appropriateness_t;XSDSimpleTypeDefinition=6"
+      outputs="model.ecore#//ContextualAppropriatenessT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//contextual_appropriateness_t;XSDSimpleTypeDefinition=6/XSDEnumerationFacet"
+        outputs="model.ecore#//ContextualAppropriatenessT/APPROPRIATE"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//contextual_appropriateness_t;XSDSimpleTypeDefinition=6/XSDEnumerationFacet=1"
+        outputs="model.ecore#//ContextualAppropriatenessT/INAPPROPRIATE"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//contextual_appropriateness_t;XSDSimpleTypeDefinition=6/XSDEnumerationFacet=2"
+        outputs="model.ecore#//ContextualAppropriatenessT/TOTALFAILURE"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//contextual_appropriateness_t;XSDSimpleTypeDefinition=6/XSDEnumerationFacet=3"
+        outputs="model.ecore#//ContextualAppropriatenessT/INCOMPREHENSIBLE"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Cooperativity;XSDComplexTypeDefinition=9"
+      outputs="model.ecore#//Cooperativity">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Cooperativity;XSDComplexTypeDefinition=9/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//Cooperativity/contextualAppropriateness"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Cooperativity;XSDElementDeclaration=7"
+      outputs="model.ecore#//DocumentRoot/cooperativity"/>
+  <nested inputs="bundleentry://412.fwk13459339/cache/www.w3.org/2001/XMLSchema.xsd#//string;XSDSimpleTypeDefinition=9"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  <nested inputs="bundleentry://412.fwk13459339/cache/www.w3.org/2001/XMLSchema.xsd#//long;XSDSimpleTypeDefinition=43"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Long"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition"
+      outputs="model.ecore#//TaskSuccessT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="model.ecore#//TaskSuccessT/SUCCEEDED"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONSYSTEM"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONUSER"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=3"
+        outputs="model.ecore#//TaskSuccessT/SUCCONSTRAINTRELAXATIONBOTH"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=4"
+        outputs="model.ecore#//TaskSuccessT/SUCNOSOLUTION"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=5"
+        outputs="model.ecore#//TaskSuccessT/FAILEDSYSTEM"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//task_success_t;XSDSimpleTypeDefinition/XSDEnumerationFacet=6"
+        outputs="model.ecore#//TaskSuccessT/FAILEDUSER"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Task;XSDComplexTypeDefinition"
+      outputs="model.ecore#//Task">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Task;XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//Task/success"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Task;XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//Task/reason"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Task;XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//Task/avm"/>
+  </nested>
+  <nested inputs="bundleentry://412.fwk13459339/cache/www.w3.org/2001/XMLSchema.xsd#//boolean;XSDSimpleTypeDefinition=10"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4"
+      outputs="model.ecore#//ModTypeT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet"
+        outputs="model.ecore#//ModTypeT/S"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=1"
+        outputs="model.ecore#//ModTypeT/V"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=2"
+        outputs="model.ecore#//ModTypeT/G"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=3"
+        outputs="model.ecore#//ModTypeT/SV"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=4"
+        outputs="model.ecore#//ModTypeT/SG"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=5"
+        outputs="model.ecore#//ModTypeT/VG"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_type_t;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=6"
+        outputs="model.ecore#//ModTypeT/SVG"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5"
+      outputs="model.ecore#//MmiTypeT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5/XSDEnumerationFacet"
+        outputs="model.ecore#//MmiTypeT/UNIMODAL"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5/XSDEnumerationFacet=1"
+        outputs="model.ecore#//MmiTypeT/EQUIVALENT"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5/XSDEnumerationFacet=2"
+        outputs="model.ecore#//MmiTypeT/ASSIGNED"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5/XSDEnumerationFacet=3"
+        outputs="model.ecore#//MmiTypeT/REDUNDANT"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mmi_type_t;XSDSimpleTypeDefinition=5/XSDEnumerationFacet=4"
+        outputs="model.ecore#//MmiTypeT/COMPLEMENTARY"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_approp_t;XSDSimpleTypeDefinition=3"
+      outputs="model.ecore#//ModAppropT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_approp_t;XSDSimpleTypeDefinition=3/XSDEnumerationFacet"
+        outputs="model.ecore#//ModAppropT/APPROPRIATE"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_approp_t;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=1"
+        outputs="model.ecore#//ModAppropT/PARTIALLY"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mod_approp_t;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=2"
+        outputs="model.ecore#//ModAppropT/INAPPROPRIATE"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityAppropriateness;XSDComplexTypeDefinition=6"
+      outputs="model.ecore#//ModalityAppropriateness">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityAppropriateness;XSDComplexTypeDefinition=6/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//ModalityAppropriateness/appropriateness"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalitySynchroni;XSDComplexTypeDefinition=4"
+      outputs="model.ecore#//ModalitySynchroni">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalitySynchroni;XSDComplexTypeDefinition=4/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//ModalitySynchroni/nlags"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalitySynchroni;XSDComplexTypeDefinition=4/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//ModalitySynchroni/lagtime"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalitySynchroni;XSDComplexTypeDefinition=4/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//ModalitySynchroni/nevents"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//role_t;XSDSimpleTypeDefinition=1"
+      outputs="model.ecore#//RoleT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//role_t;XSDSimpleTypeDefinition=1/XSDEnumerationFacet"
+        outputs="model.ecore#//RoleT/SYSTEM"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//role_t;XSDSimpleTypeDefinition=1/XSDEnumerationFacet=1"
+        outputs="model.ecore#//RoleT/USER"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2"
+      outputs="model.ecore#//McReasonT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet"
+        outputs="model.ecore#//McReasonT/RECOGNITIONERROR"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=1"
+        outputs="model.ecore#//McReasonT/ENVIRONMENTCHANGE"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=2"
+        outputs="model.ecore#//McReasonT/LOWMODAPPROPRIATENESS"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=3"
+        outputs="model.ecore#//McReasonT/USERDECISION"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=4"
+        outputs="model.ecore#//McReasonT/SYSTEMDECISION"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=5"
+        outputs="model.ecore#//McReasonT/INTERFACEADAPTATION"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//mc_reason_t;XSDSimpleTypeDefinition=2/XSDEnumerationFacet=6"
+        outputs="model.ecore#//McReasonT/OTHER"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityChange;XSDComplexTypeDefinition=5"
+      outputs="model.ecore#//ModalityChange">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityChange;XSDComplexTypeDefinition=5/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//ModalityChange/origin"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityChange;XSDComplexTypeDefinition=5/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//ModalityChange/reason"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7"
+      outputs="model.ecore#//ModalityInfo">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//ModalityInfo/inputType"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//ModalityInfo/outputType"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//ModalityInfo/mmiType"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//ModalityInfo/appropriateness"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle=4"
+        outputs="model.ecore#//ModalityInfo/synchroni"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDComplexTypeDefinition=7/XSDParticle/XSDModelGroup/XSDParticle=5"
+        outputs="model.ecore#//ModalityInfo/change"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2"
+      outputs="model.ecore#//Turn">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//Turn/feedbackDelay"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//Turn/feedbackDuration"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//Turn/actionDuration"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//Turn/elements"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=4"
+        outputs="model.ecore#//Turn/concepts"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=5"
+        outputs="model.ecore#//Turn/noise"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=6"
+        outputs="model.ecore#//Turn/isQuestion"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle=7"
+        outputs="model.ecore#//Turn/modality"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Metacomm;XSDComplexTypeDefinition=12"
+      outputs="model.ecore#//Metacomm">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Metacomm;XSDComplexTypeDefinition=12/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//Metacomm/isHelp"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Metacomm;XSDComplexTypeDefinition=12/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//Metacomm/isCorrection"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemMetacomm;XSDComplexTypeDefinition=11"
+      outputs="model.ecore#//SystemMetacomm">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemMetacomm;XSDComplexTypeDefinition=11/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//SystemMetacomm/isASRReject"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemMetacomm;XSDComplexTypeDefinition=11/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//SystemMetacomm/isDIVReject"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemMetacomm;XSDComplexTypeDefinition=11/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//SystemMetacomm/isGRReject"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDComplexTypeDefinition=10"
+      outputs="model.ecore#//SpeechOutput">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDComplexTypeDefinition=10/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//SpeechOutput/aNCO"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDComplexTypeDefinition=10/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//SpeechOutput/aNIN"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDComplexTypeDefinition=10/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//SpeechOutput/aNPA"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDComplexTypeDefinition=10/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//SpeechOutput/aNFA"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemTurn;XSDComplexTypeDefinition=8"
+      outputs="model.ecore#//SystemTurn">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemTurn;XSDComplexTypeDefinition=8/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//SystemTurn/metacomm"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemTurn;XSDComplexTypeDefinition=8/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//SystemTurn/speechOutput"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemTurn;XSDComplexTypeDefinition=8/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//SystemTurn/cooperativity"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13"
+      outputs="model.ecore#//UserMetacomm">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//UserMetacomm/isTimeOut"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//UserMetacomm/isCancel"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//UserMetacomm/isRestart"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//UserMetacomm/isBargein"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDComplexTypeDefinition=13/XSDParticle/XSDModelGroup/XSDParticle=4"
+        outputs="model.ecore#//UserMetacomm/isSuccessfulBargein"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14"
+      outputs="model.ecore#//SpeechInput">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//SpeechInput/overallWords"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//SpeechInput/substitutedWords"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//SpeechInput/deletedWords"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//SpeechInput/insertedWords"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=4"
+        outputs="model.ecore#//SpeechInput/overallSentences"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=5"
+        outputs="model.ecore#//SpeechInput/substitutedSentences"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=6"
+        outputs="model.ecore#//SpeechInput/deletedSentences"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=7"
+        outputs="model.ecore#//SpeechInput/insertedSentences"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=8"
+        outputs="model.ecore#//SpeechInput/overallConcepts"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=9"
+        outputs="model.ecore#//SpeechInput/substitutedConcepts"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=10"
+        outputs="model.ecore#//SpeechInput/deletedConcepts"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=11"
+        outputs="model.ecore#//SpeechInput/insertedConcepts"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=12"
+        outputs="model.ecore#//SpeechInput/pACO"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=13"
+        outputs="model.ecore#//SpeechInput/pAPA"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDComplexTypeDefinition=14/XSDParticle/XSDModelGroup/XSDParticle=14"
+        outputs="model.ecore#//SpeechInput/pAIC"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15"
+      outputs="model.ecore#//GuiInput">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//GuiInput/textElements"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//GuiInput/navigationActions"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//GuiInput/navigationMoves"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//GuiInput/navigationLength"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle=4"
+        outputs="model.ecore#//GuiInput/exploringActions"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDComplexTypeDefinition=15/XSDParticle/XSDModelGroup/XSDParticle=5"
+        outputs="model.ecore#//GuiInput/transferringActions"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserTurn;XSDComplexTypeDefinition=16"
+      outputs="model.ecore#//UserTurn">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserTurn;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//UserTurn/metacomm"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserTurn;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//UserTurn/speechInput"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserTurn;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//UserTurn/guiInput"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//dialogue_step_t;XSDComplexTypeDefinition=17"
+      outputs="model.ecore#//DialogueStepT">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//dialogue_step_t;XSDComplexTypeDefinition=17/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//DialogueStepT/systemTurn"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//dialogue_step_t;XSDComplexTypeDefinition=17/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//DialogueStepT/userTurn"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDComplexTypeDefinition=1"
+      outputs="model.ecore#//Dialogue">
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="model.ecore#//Dialogue/description"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="model.ecore#//Dialogue/baseTimestamp"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="model.ecore#//Dialogue/task"/>
+    <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="model.ecore#//Dialogue/step"/>
+  </nested>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Dialogue;XSDElementDeclaration=13"
+      outputs="model.ecore#//DocumentRoot/dialogue"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//GuiInput;XSDElementDeclaration=12"
+      outputs="model.ecore#//DocumentRoot/guiInput"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityAppropriateness;XSDElementDeclaration=5"
+      outputs="model.ecore#//DocumentRoot/modalityAppropriateness"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityChange;XSDElementDeclaration=4"
+      outputs="model.ecore#//DocumentRoot/modalityChange"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalityInfo;XSDElementDeclaration=6"
+      outputs="model.ecore#//DocumentRoot/modalityInfo"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//ModalitySynchroni;XSDElementDeclaration=3"
+      outputs="model.ecore#//DocumentRoot/modalitySynchroni"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechInput;XSDElementDeclaration=11"
+      outputs="model.ecore#//DocumentRoot/speechInput"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SpeechOutput;XSDElementDeclaration=8"
+      outputs="model.ecore#//DocumentRoot/speechOutput"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//SystemMetacomm;XSDElementDeclaration=9"
+      outputs="model.ecore#//DocumentRoot/systemMetacomm"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Task;XSDElementDeclaration=1"
+      outputs="model.ecore#//DocumentRoot/task"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//Turn;XSDElementDeclaration=2"
+      outputs="model.ecore#//DocumentRoot/turn"/>
+  <nested inputs="file:/C:/Documents%20and%20Settings/mateo-navarro.pedro/Desktop/svn_main/trunk/model/imp/mmiModel.xsd#//UserMetacomm;XSDElementDeclaration=10"
+      outputs="model.ecore#//DocumentRoot/userMetacomm"/>
+</xsd2ecore:XSD2EcoreMappingRoot>
